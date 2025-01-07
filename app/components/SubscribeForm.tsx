@@ -14,13 +14,13 @@ const SubscribeForm = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="flex md:flex-row flex-col items-center mt-6 md:gap-0 gap-4">
+        <form onSubmit={handleSubmit} className="flex lg:flex-none md:flex-row flex-col lg:items-center mt-6 md:gap-0 gap-4">
             <input
                 type="email"
                 placeholder="Enter your email address"
                 value={email}
                 onChange={handleInputChange}
-                className="p-3 text-base bg-[#EFEFEF] w-80 focus:outline-none md:rounded-none rounded-tr-3xl"
+                className="p-3 text-base bg-[#EFEFEF] md:w-80 focus:outline-none md:rounded-none rounded-tr-3xl"
                 required
             />
             <button

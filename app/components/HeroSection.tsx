@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
     return (
-        <div id="home" className="container mx-auto md:py-5 mt-10 flex flex-col md:flex-row items-center justify-center max-w-7xl">
+        <div id="home" className="md:mx-10 md:py-5 mt-10 flex flex-col md:flex-row items-center justify-center max-w-7xl">
             {/* Text Content */}
             <div className="grid gap-6 md:w-1/2 px-6 md:px-0 text-center md:text-left">
                 <h1 className="text-4xl md:text-7xl font-bold">
@@ -25,15 +25,15 @@ const HeroSection = () => {
                     width={130}
                     height={500}
                     layout="intrinsic"
-                    className="hidden md:block"
+                    className="hidden lg:block"
                 />
 
                 {/* Main Image */}
                 <Image
                     src="https://angular.envytheme.com/recall-ng/instagram/assets/img/banner-img1.png"
                     alt="Banner Image"
-                    width={700}
-                    height={500}
+                    width={420}
+                    height={300}
                     quality={75}
                     layout="intrinsic"
                     className="max-w-full h-auto px-5 md:px-0"
@@ -46,7 +46,7 @@ const HeroSection = () => {
                     width={130}
                     height={500}
                     layout="intrinsic"
-                    className="hidden md:block -ms-10"
+                    className="hidden  lg:block -ms-10"
                 />
             </div>
         </div>

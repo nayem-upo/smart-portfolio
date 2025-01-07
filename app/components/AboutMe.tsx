@@ -23,7 +23,7 @@ const AboutMe = () => {
                         width={200}
                         height={200}
                         layout="intrinsic"
-                        className="absolute top-0 z-20 animate-bounce-slow hidden"
+                        className="absolute top-0 z-20 animate-bounce-slow md:block hidden"
                     />
 
                     <Image
@@ -32,7 +32,7 @@ const AboutMe = () => {
                         width={220}
                         height={200}
                         layout="intrinsic"
-                        className="absolute right-10 -bottom-10 z-0 animate-slide-slow hidden"
+                        className="absolute right-10 -bottom-10 z-0 animate-slide-slow md:block hidden"
                     />
                 </div>
             </div>
